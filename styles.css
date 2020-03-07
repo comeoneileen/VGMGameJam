@@ -49,6 +49,12 @@ border: 4px dashed #f3b069;
     border: 3px solid #58c4f8;
     padding:10px;
     margin:10px;
+    width:30%;
+
+}
+.gamebox img{
+    width:100%;
+
 }
 
 footer {
