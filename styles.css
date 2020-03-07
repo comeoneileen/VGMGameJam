@@ -11,6 +11,7 @@ max-width:1080px;
 margin:0 auto;
 padding:10px;
 background-color:#f7f3d9;
+    overflow:auto;
 }
 h1 {
 color:white;
@@ -21,19 +22,22 @@ width:90%;
 border: 3px solid #58c4f8;
 padding:20px;
 margin:0 auto;
+    overflow:auto;
 }
 .inner {
-width:60%;
-font-size:150%;
+width:65%;
+font-size:140%;
 position:relative;
 float:right;
 }
-#banner {
+#banner, footer {
 width:90%;
+overflow:auto;
 padding:20px;
 margin:0 auto;
 background-color:#F8E771;
-border: 4px dashed #f3b069;}
+border: 4px dashed #f3b069;
+}
 
 #flexgallery{
     display:flex;
@@ -45,4 +49,12 @@ border: 4px dashed #f3b069;}
     border: 3px solid #58c4f8;
     padding:10px;
     margin:10px;
+}
+
+footer {
+    margin-top:20px;
+    width:90%;
+    padding:20px 50px 10px 0px;
+    clear:both;
+    text-align:center;
 }
