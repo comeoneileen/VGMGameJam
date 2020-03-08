@@ -32,7 +32,7 @@ float:right;
 }
 
 #banner, footer {
-width:90%;
+width:95%;
 overflow:auto;
 padding:20px;
 margin:0 auto;
@@ -62,7 +62,6 @@ border: 4px dashed #f3b069;
 
 footer {
     margin-top:20px;
-    width:90%;
     padding:20px 50px 10px 0px;
     clear:both;
     text-align:center;
